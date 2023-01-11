@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+/* * {
+  box-sizing: border-box;
+} */
+
+#shop-theme {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  height: 400vh;
+}
+
+.screen-header {
+  position: relative;
+}
+
+.screen-header__icon {
+  color: #fd6ba4;
+}
+
+.screen-header__title {
+  color: #f1e87c;
+  font-size: 48px;
+  letter-spacing: -2px;
+}
+
+.screen-header__columns {
+  background-color: #675959;
+  display: flex;
+}
+
+.screen-header__column {
+  padding: 30px;
+  width: 33%;
+}
+
+.screen-header__column:nth-child(2) {
+  text-align: center;
+}
+
+.screen-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shop-theme__bar {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: -30px;
+}
+
+.shop-theme__searchbar {
+  display: flex;
+  width: 40%;
+  height: 50px;
+  font-size: 18px;
+  color: #fd6ba4;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #fd6ba4;
+  position: relative;
+  border-radius: 15px;
+}
+
+.searchbar__input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.shop-theme__searchbar input {
+  width: 90%;
+  border: 0;
+  height: 32px;
+  font-size: 18px;
+  color: #fd6ba4;
+  outline: none;
+  padding-left: 10px;
+  background-color: black;
+}
+
+.shop-theme__searchbar span {
+  position: absolute;
+  right: 20px;
+}
+
+.shop-music__album img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #fd6ba4;
+}
+
+.screen-main {
+  padding: 30px;
+}
+
+.shop-music__text {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #fd6ba4;
+  font-size: 30px;
+}
+
+.shop-music-article {
+  display: flex;
+  height: 80vh;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #f1e87c;
+}
+
+.shop-music-best {
+  height: 110vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #f1e87c;
+}
+
+.shop-music-message {
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #f1e87c;
+}
+
+.shop-music__column:last-child {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.shop-music__star {
+  display: block;
+}
+
+.shop-music__column:last-child h1 {
+  font-size: 38px;
+}
+.shop-music__column:last-child h2 {
+  font-size: 28px;
+  opacity: 0.6;
+}
+
+.shop-music__icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-music__icon-genre {
+  padding: 20px 50px;
+  background-color: #675959;
+  border-radius: 10px;
+}
+
+.shop-music__icon-start {
+  cursor: pointer;
+}
+
+.shop-music__icon-start:hover {
+  color: #675959;
+}
+
+.shop-music__icon-buy {
+  padding: 15px 50px;
+  background-color: #675959;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.shop-music__icon-buy:hover {
+  color: #675959;
+  background-color: #f1e87c;
+}
+
+.shop-music__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.shop-music__top:nth-child(1) .shop-music__top-photo {
+  background-image: url("https://www.dualipa.com/wp-content/uploads/2020/01/DL-physical-artwork.jpg");
+}
+.shop-music__top:nth-child(2) .shop-music__top-photo {
+  background-image: url("https://www.dualipa.com/wp-content/uploads/2019/10/dl-complete-edition.jpeg");
+}
+.shop-music__top:nth-child(3) .shop-music__top-photo {
+  background-image: url("https://www.dualipa.com/wp-content/uploads/2020/10/Dua-Lipa-X-DaBaby-Artwork.jpg");
+}
+.shop-music__top:nth-child(4) .shop-music__top-photo {
+  background-image: url("https://www.dualipa.com/wp-content/uploads/2020/03/DUA_FN_Sleeve.jpg");
+}
+.shop-music__top:nth-child(5) .shop-music__top-photo {
+  background-image: url("https://www.dualipa.com/wp-content/uploads/2020/08/Levitating.jpg");
+}
+.shop-music__top:nth-child(6) .shop-music__top-photo {
+  background-image: url("https://www.dualipa.com/wp-content/uploads/2020/03/DuaLipa_Single_BreakMyHeart.jpg");
+}
+.shop-music__top:nth-child(7) .shop-music__top-photo {
+  background-image: url("https://www.dualipa.com/wp-content/uploads/2019/10/swan-song.jpeg");
+}
+.shop-music__top:nth-child(8) .shop-music__top-photo {
+  background-image: url("https://www.dualipa.com/wp-content/uploads/2021/02/DUA_LIPA_THE_MOONLIGHT_EDITION_ARTWORK-1.jpg");
+}
+.shop-music__top-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-size: cover;
+  border: 1px solid #fd6ba4;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: opacity 0.4s ease-in;
+}
+
+.shop-music__top-photo:hover {
+  opacity: 0.6;
+}
+
+.artist-message__columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.artist-message__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.artist-cover {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 10px;
+  border: 1px solid #fd6ba4;
+  transition: opacity 0.4s ease-in-out;
+  background-image: url("https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/3a7476ab-e222-404b-8618-ae510011daae/afc4c058-f011-4031-b4a0-ae510011dac0/image.jpg?t=1663330888&size=Large");
+}
+
+.artist-cover__link {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #675959;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.artist-cover__link:hover {
+  opacity: 0.7;
+}
+
+.artist-cover:hover {
+  opacity: 0.7;
+}
+
+.artist-message__title {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.artist-message__content {
+  color: white;
+  opacity: 0.6;
+  line-height: 28px;
+}
